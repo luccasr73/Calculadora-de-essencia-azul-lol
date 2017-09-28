@@ -63,6 +63,10 @@ a{
   text-decoration:none;
   color:#000;
 }
+small{
+  display: block;
+    font-size: x-small;
+}
 .calcEssencia{
 	 background-color: #fff;
    padding-top:0;
