@@ -9,7 +9,7 @@ function conversaoParaEssencia(){
 conversao = (runasRegulares.value * 100) +(runasGrandes.value * 300) +
 (paginasRunas.value * 1500) + (essenciaAtual.value * 6.5) + (ipAtual.value * 1);
 
-resultado.innerText =conversao.toString().replace('.',',') + ' essencias azuis';
+resultado.innerText =conversao.toString().replace('.',',');
 }
 calcular.onclick =  function() {conversaoParaEssencia()};
 	
