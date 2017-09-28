@@ -59,6 +59,10 @@ button:active, button:focus{
   cursor: pointer;
   opacity:0.5;
 }
+a{
+  text-decoration:none;
+  color:#000;
+}
 .calcEssencia{
 	 background-color: #fff;
    padding: 15px;
