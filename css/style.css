@@ -1,0 +1,83 @@
+html,body{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	background-image: url(../assets/live.jpg);
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.41);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: round;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+input{
+	display:block;
+	margin-bottom:15px;
+	margin-top:15px;
+	text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+input[type=number] {
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-bottom-color: #9E9E9E;
+    border-bottom: 0.1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline:none;
+
+}
+
+span{
+	display:block;
+}
+button{
+  margin-top:10px;
+  padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #080808;
+    background-color:#fff ;
+    color: #000;
+}
+button:hover{
+  cursor: pointer;
+  opacity:0.9;
+}
+button:active, button:focus{
+  cursor: pointer;
+  opacity:0.5;
+}
+.calcEssencia{
+	 background-color: #fff;
+   padding: 15px;
+	 text-align: center;
+	 text-align: -webkit-center;
+   text-align: -moz-center;
+}
+
+@media (min-width : 768px) {
+      .calcEssencia{
+	  border-radius: 10px;
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     -webkit-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+             transform: translate(-50%, -50%);
+		  }
+    }
+
+
