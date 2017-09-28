@@ -25,7 +25,7 @@ input[type=number]::-webkit-inner-spin-button {
 input[type=number] {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-appearance: none;
-  -moz-appearance: none;
+  -moz-appearance: textfield;
   appearance: none;
   border-bottom-color: #9E9E9E;
     border-bottom: 0.1px solid;
