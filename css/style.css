@@ -65,7 +65,10 @@ a{
 }
 .calcEssencia{
 	 background-color: #fff;
-   padding: 15px;
+   padding-top:0;
+   padding-bottom: 15px;
+   padding-left: 15px;
+   padding-right: 15px;
 	 text-align: center;
 	 text-align: -webkit-center;
    text-align: -moz-center;
@@ -81,6 +84,11 @@ a{
      -webkit-transform: translate(-50%, -50%);
          -ms-transform: translate(-50%, -50%);
              transform: translate(-50%, -50%);
+		  }
+    }
+    @media (max-width : 768px) {
+      .calcEssencia{
+	 padding:15px;
 		  }
     }
 
